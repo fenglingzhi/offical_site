@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<style type="text/css">
+		.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+			padding: 0;
+		}
+		.content{
+			background: #f7f7f7;
+		}
+		.banner2{
+			width: 100%;
+			background: #F7F7F7;
+			height: 0px;
+			padding-bottom: 32.25%;
+		}
+		.banner2 .text{
+			width: 80%;
+			font-size: 24px;
+			margin: 180px auto;
+			line-height: 44px;
+		}
+		.banner3{
+			width: 100%;
+			height: 1098px;
+			background: url(img/pingpaishili/banner3.png);
+			background-size: 100% 100%;
+			background-color: white;
+		}
+		.conText{
+			width: 94.5%;
+			background: #FEFEFE;
+			margin-top: -100px;
+			height: 0px;
+			padding-bottom: 600px;
+		}
+		.heads{
+			width: 80%;
+			margin: 0 auto;
+			padding-bottom: 55px;
+			border-bottom: 1px solid #CED0D5;
+			padding-top: 55px;
+		}
+		.head{
+			width: 240px;
+			float: left;
+			height: 55px;
+			font-size: 24px;
+			text-indent: 20px;
+
+		}
+		.chosedHead{
+			border-bottom: 2px solid #E9A39F;
+			color: #E9A39F;
+		}
+		.desBut{
+			width: 130px;
+			height: 40px;
+			font-size: 18px;
+			text-align: center;
+			background: #494f5c;
+			color: white;
+			line-height: 40px;
+		}
+		.contentView{
+			margin: 324px 132px;
+		}
+		.conHead{
+			font-size: 72px;
+			margin: 28px 0;
+
+		}
+		.tip{
+			font-size: 24px;
+		}
+		.seeMore{
+			margin: 50px 0;
+		}
+		.banner3Img{
+			margin: 35% -85%;
+		}
+		.banner4{
+			width: 100%;
+			position: relative;
+
+		}
+		.banner4Text{
+			position: absolute;
+			text-align: center;
+			right: 0;
+			left: 0;
+			margin: 100px 0;
+		}
+		.banner4Head{
+			font-size: 48px;
+			color: white;
+			margin: 21px 0;
+		}
+		.banner4Tip{
+			color: white;
+			font-size: 24px;
+			line-height: 45px;
+		}
+	</style>
+</head>
+<body>
+	<div class="content">
+		<div class="banner1">
+			<img width="100%" src="img/pingpaishili/banner.png" alt="">
+		</div>
+		<div class="banner2" >
+			<div class="col-md-8">
+				<div class="text">
+					<span style="font-size: 100px;margin-left: -40px;">“</span> 女性坚持运动，是因为运动本身，<br>
+					因为运动带来的汗水、多巴胺、肌肉酸痛和退却后全身心的放松，<br>
+					是一种对运动的充分享受，是对健康生活方式的一种热爱。<br>
+					女性的独立，赋予了她们独特的魅力，<br>
+					让运动成就了一个全新的你！
+				</div>
+			</div>
+			<div class="col-md-4">
+				<img src="img/pingpaishili/banner2.png" width="100%" style="margin: -80px 0;" alt="">
+			</div>
+		</div>
+		<div class="banner3" >
+			<div class="col-md-9">
+				<div class="conText">
+					<div class="heads">
+						<div class="head chosedHead" onclick="change('Design',this)">
+							01&nbsp;&nbsp;&nbsp;Design
+						</div>
+						<div class="head" onclick="change('Fabrics',this)">
+							02&nbsp;&nbsp;&nbsp;Fabrics
+						</div>
+						<div class="head" onclick="change('Craft',this)">
+							03&nbsp;&nbsp;&nbsp;Craft
+						</div>
+					</div>
+					<div class="contentView">
+						<div class="desBut">设计</div>
+						<div class="conHead">A NEW AGE OF <br> WOMEN</div>
+						<div class="tip">
+							只为展现更好的你
+						</div>
+						<div class="seeMore">
+							<img src="img/pingpaishili/viewMore.png" alt="">
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<img class="banner3Img" src="img/pingpaishili/banner31.png" width="130%" alt="">
+			</div>
+		</div>
+		<div class="banner4">
+			<div class="banner4Text">
+				<div class="banner4Head">关于设计</div>
+				<div class="banner4Tip">Yvette薏凡特拥有来自法国、芬兰、美国、德国、中国大陆、中国台湾等全球知名的设计研发团队，以确保其卓越的设计研发能力。</div>
+			</div>
+			<img src="img/pingpaishili/banner4.png" width="100%" alt="">
+
+		</div>
+		<div style="height: 30px;"></div>
+		<div class="banner4">
+			<div class="banner4Text" style="margin: 252px 0;">
+				<div class="banner4Head"  style="color: #494f5c">关于面料</div>
+				<div class="banner4Tip" style="color: #494f5c">Yvette薏凡特坚持选择高品质合作商，采购团队每年平均出差时间长达10个月，<br>
+					足迹遍布世界各地，只为寻找全球顶级的优质面料和纱线。
+				</div>
+				<div class="banner4Tip" style="color: #494f5c; margin: 25px 0;font-size: 20px;">
+					美国杜邦ATY空气变形纱技术 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;LYCAR®面料&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Coolmax面料&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 三文治面料
+				</div>
+				<div class="seeMore">
+					<img src="img/pingpaishili/viewMore.png" alt="">
+				</div>
+			</div>
+			<img src="img/pingpaishili/banner5.png" width="100%" alt="">
+		</div>
+		<div class="banner6" style="    height: 928px;">
+			<div class="col-md-7">
+				<div class="contentView" style="    margin: 324px 312px;">
+					<div class="conHead" style="font-size: 48px"> 关于工艺</div>
+					<div class="tip">
+						Yvette薏凡特追求细节与品质，为保证穿着者的理想体验，<br>
+						每件产品都需要经过10+次改版，30+道工序精心打磨。
+					</div>
+					<div class="seeMore">
+						<img src="img/pingpaishili/viewMore.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-5">
+				<img style="    margin-top: 85px;" src="img/pingpaishili/banner61.png" width="100%" alt="">
+			</div>
+		</div>
+		<div class="banner4">
+			<div class="banner4Text">
+				<div class="banner4Head">关于设计</div>
+				<div class="banner4Tip">Yvette<br>
+					已在9+个国家形成销售 <br>
+					中国，美国，日本，德国，芬兰，瑞士，法国，<br>
+					英国，澳大利亚...</div>
+			</div>
+			<img src="img/pingpaishili/banner7.png" width="100%" alt="">
+
+		</div>
+
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="jQuery/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/bootstrap-theme.min.css"></script>
+<script type="text/javascript" src="bootstrap/bootstrap.min.js"></script>
+<script>
+function change(x,dom) {
+    $(".chosedHead").removeClass('chosedHead')
+	$(dom).addClass('chosedHead')
+	if(x=="Design"){
+	    $(".desBut").html("设计")
+        $(".conHead").html("A NEW AGE OF <br> WOMEN")
+        $(".tip").html("只为展现更好的你")
+		$(".banner3Img").attr('src','img/pingpaishili/banner31.png')
+	}else if(x=="Fabrics"){
+        $(".desBut").html("工艺")
+        $(".conHead").html("Workmanship")
+        $(".tip").html("每件产品经过30+道工序精心锻造")
+        $(".banner3Img").attr('src','img/pingpaishili/banner32.png')
+
+    }else {
+        $(".desBut").html("科技面料")
+        $(".conHead").html("Searching High- <br> TechSportsFabrics")
+        $(".tip").html("搜罗进口科技运动面料")
+        $(".banner3Img").attr('src','img/pingpaishili/banner33.png')
+
+    }
+}
+</script>
