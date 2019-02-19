@@ -1,10 +1,87 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+	/*font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;*/
+	font-family: Montserrat;
 }
 a,a:hover,a:active,a:focus{
 	color: #0f0f0f;
 	text-decoration: none;
 	cursor: pointer;
 }
+.row{
+	margin: 0;
+}
+/* header css begin*/
+header{
+	height: 150px;
+	width: 100%;
+}
+header .logo{
+	background: #f1bab7;
+	height: 150px;
+	font-size: 24px;
+	line-height: 150px;
+	text-align: center;
+}
+header .logo span{
+	margin-left: 10px;
+}
+header .menu{
+	line-height: 150px;
+	font-size: 20px;
+	text-align: center;
+}
+/*header .menu .menu_active{*/
+/*padding: 8px 40px;*/
+/*border-radius: 20px;*/
+/*border: 1px solid #000;*/
+/*font-weight: bold;*/
+/*}*/
+header .menu a:hover{
+	padding: 8px 40px;
+	border-radius: 30px;
+	border: 1px solid #000;
+}
+/* header css end*/
+/*footer css begin*/
+footer{
+	margin-top: 500px;
+}
+.footer_top{
+	height: 100px;
+	background: #edf0f4;
+}
+.footer_bottom{
+	height: 180px;
+	background: #f5f7f9;
+	padding: 70px 0;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+}
+.footer_bottom i{
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background-size: 100% 100%;
+	float: left;
+	margin-right: 20px;
+}
+.footer_icon{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-right: 20px;
+	margin-top: 40px;
+}
+.footer_icon img{
+	width: 100%;
+	height: 100%;
+}
+@media screen and (max-width: 1400px) {
+	.footer_bottom {
+		font-size: 12px;
+	}
+}
+/*footer css end*/

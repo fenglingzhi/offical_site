@@ -105,7 +105,7 @@ body{
     position: absolute;
     bottom: 5px;
     left: 50%;
-    margin-left: -185px;
+    margin-left: -35px;
     z-index: 80;
 }
 
@@ -113,12 +113,12 @@ body{
     float: left;
     width: 40px;
     height: 5px;
-    background-color: #898F94;
+    background-color: #F0CAC9;
     margin-right: 15px;
 }
 
 .Cooldog_container .buttons a.color {
-    background-color: #92ffff;
+    background-color: #E3867F;
 }
 
 .Cooldog_container .buttons a:last-child {

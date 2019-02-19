@@ -6,111 +6,255 @@
 	<link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<style type="text/css">
-		.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+		.container-fluid,.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
 			padding: 0;
 		}
 		.content{
 			background: #f7f7f7;
 		}
-		.banner2{
-			width: 100%;
-			background: #F7F7F7;
-			height: 0px;
-			padding-bottom: 32.25%;
-		}
-		.banner2 .text{
-			width: 80%;
-			font-size: 24px;
-			margin: 180px auto;
-			line-height: 44px;
-		}
-		.banner3{
-			width: 100%;
-			height: 1098px;
-			background: url(img/pingpaishili/banner3.png);
-			background-size: 100% 100%;
-			background-color: white;
-		}
-		.conText{
-			width: 94.5%;
-			background: #FEFEFE;
-			margin-top: -100px;
-			height: 0px;
-			padding-bottom: 600px;
-		}
-		.heads{
-			width: 80%;
-			margin: 0 auto;
-			padding-bottom: 55px;
-			border-bottom: 1px solid #CED0D5;
-			padding-top: 55px;
-		}
-		.head{
-			width: 240px;
-			float: left;
-			height: 55px;
-			font-size: 24px;
-			text-indent: 20px;
+		@media screen and (max-width: 1600px) {
+			.banner2{
+				width: 100%;
+				background: #F7F7F7;
+				height: 0px;
+				padding-bottom: 32.25%;
+			}
+			.banner2 .text{
+				width: 80%;
+				font-size: 18px;
+				margin: 96px auto;
+				line-height: 31px;
+				height: 340px;
+			}
+			.banner3{
+				width: 100%;
+				height: 1098px;
+				background: url(img/pingpaishili/banner3.png);
+				background-size: 100% 100%;
+				background-color: white;
+			}
+			.conText{
+				width: 94.5%;
+				background: #FEFEFE;
+				margin-top: -100px;
+				height: 0px;
+				padding-bottom: 600px;
+			}
+			.heads{
+				width: 80%;
+				margin: 0 auto;
+				padding-bottom: 55px;
+				border-bottom: 1px solid #CED0D5;
+				padding-top: 55px;
+			}
+			.head{
+				width: 200px;
+				float: left;
+				height: 55px;
+				font-size: 24px;
+				text-indent: 20px;
+
+			}
+			.chosedHead{
+				border-bottom: 2px solid #E9A39F;
+				color: #E9A39F;
+			}
+			.desBut{
+				width: 130px;
+				height: 40px;
+				font-size: 18px;
+				text-align: center;
+				background: #494f5c;
+				color: white;
+				line-height: 40px;
+			}
+			.contentView{
+				margin: 249px 125px;
+			}
+			.conHead{
+				font-size: 60px;
+				margin: 28px 0;
+
+			}
+			.tip{
+				font-size: 24px;
+			}
+			.seeMore{
+				margin: 50px 0;
+			}
+			.banner3Img{
+				margin: 35% -85%;
+			}
+			.banner4{
+				width: 100%;
+				position: relative;
+
+			}
+			.banner4Text{
+				position: absolute;
+				text-align: center;
+				right: 0;
+				left: 0;
+				margin: 90px 0;
+			}
+			.banner4Head{
+                font-size: 44px;
+                color: white;
+                margin: 21px 0;
+			}
+			.banner4Tip{
+                color: white;
+                font-size: 22px;
+                line-height: 45px;
+			}
+            .small1366{
+                display: block;
+            }
+            .big1366{
+                display: none;
+            }
+            .banner6{
+                height: 596px
+            }
 
 		}
-		.chosedHead{
-			border-bottom: 2px solid #E9A39F;
-			color: #E9A39F;
-		}
-		.desBut{
-			width: 130px;
-			height: 40px;
-			font-size: 18px;
-			text-align: center;
-			background: #494f5c;
-			color: white;
-			line-height: 40px;
-		}
-		.contentView{
-			margin: 324px 132px;
-		}
-		.conHead{
-			font-size: 72px;
-			margin: 28px 0;
+		@media screen and (min-width: 1601px) {
+			.banner2{
+				width: 100%;
+				background: #F7F7F7;
+				height: 0px;
+				padding-bottom: 32.25%;
+			}
+			.banner2 .text{
+				width: 80%;
+				font-size: 24px;
+				margin: 180px auto;
+				line-height: 44px;
+			}
+			.banner3{
+				width: 100%;
+				height: 1098px;
+				background: url(img/pingpaishili/banner3.png);
+				background-size: 100% 100%;
+				background-color: white;
+			}
+			.conText{
+				width: 94.5%;
+				background: #FEFEFE;
+				margin-top: -100px;
+				height: 0px;
+				padding-bottom: 600px;
+			}
+			.heads{
+				width: 80%;
+				margin: 0 auto;
+				padding-bottom: 55px;
+				border-bottom: 1px solid #CED0D5;
+				padding-top: 55px;
+			}
+			.head{
+				width: 240px;
+				float: left;
+				height: 55px;
+				font-size: 24px;
+				text-indent: 20px;
 
-		}
-		.tip{
-			font-size: 24px;
-		}
-		.seeMore{
-			margin: 50px 0;
-		}
-		.banner3Img{
-			margin: 35% -85%;
-		}
-		.banner4{
-			width: 100%;
-			position: relative;
+			}
+			.chosedHead{
+				border-bottom: 2px solid #E9A39F;
+				color: #E9A39F;
+			}
+			.desBut{
+				width: 130px;
+				height: 40px;
+				font-size: 18px;
+				text-align: center;
+				background: #494f5c;
+				color: white;
+				line-height: 40px;
+			}
+			.contentView{
+				margin: 324px 132px;
+			}
+			.conHead{
+				font-size: 72px;
+				margin: 28px 0;
 
+			}
+			.tip{
+				font-size: 24px;
+			}
+			.seeMore{
+				margin: 50px 0;
+			}
+			.banner3Img{
+				margin: 35% -85%;
+			}
+			.banner4{
+				width: 100%;
+				position: relative;
+
+			}
+			.banner4Text{
+				position: absolute;
+				text-align: center;
+				right: 0;
+				left: 0;
+				margin: 100px 0;
+			}
+			.banner4Head{
+				font-size: 48px;
+				color: white;
+				margin: 21px 0;
+			}
+			.banner4Tip{
+				color: white;
+				font-size: 24px;
+				line-height: 45px;
+			}
+            .small1366{
+                display: none;
+            }
+            .big1366{
+                display: block;
+            }
+            .banner6{
+                height: 928px
+            }
 		}
-		.banner4Text{
-			position: absolute;
-			text-align: center;
-			right: 0;
-			left: 0;
-			margin: 100px 0;
+		.footer_bottom {
+			height: 180px;
+			background: #f5f7f9;
+			padding: 70px 0;
+			font-size: 14px;
+			font-weight: bold;
+			text-align: left;
 		}
-		.banner4Head{
-			font-size: 48px;
-			color: white;
-			margin: 21px 0;
-		}
-		.banner4Tip{
-			color: white;
-			font-size: 24px;
-			line-height: 45px;
+		footer{
+			margin-top: 0;
 		}
 	</style>
 </head>
-<body>
+<body style="overflow-x: hidden; ">
+<header class="container-fluid">
+	<div class="row">
+		<div class="col-md-2 logo">
+			<span>Yvette</span>
+			<span><img src="img/logo.png"></span>
+		</div>
+		<div class="col-md-10 menu">
+			<div class="col-md-7">
+				<div class="col-md-3"><a class="menu_active" href="./index.html">首页</a></div>
+				<div class="col-md-3"><a class="" href="./pingpaishili.html">品牌介绍</a></div>
+				<div class="col-md-3"><a class="" href="./product_page.html">产品</a></div>
+				<div class="col-md-3"><a class="" href="./pingpaidongtai.html">品牌动态</a></div>
+			</div>
+		</div>
+	</div>
+</header>
 	<div class="content">
 		<div class="banner1">
-			<img width="100%" src="img/pingpaishili/banner.png" alt="">
+			<img width="100%" src="img/pingpaishili/banner.jpg" alt="">
 		</div>
 		<div class="banner2" >
 			<div class="col-md-8">
@@ -154,7 +298,12 @@
 				</div>
 			</div>
 			<div class="col-md-3">
-				<img class="banner3Img" src="img/pingpaishili/banner31.png" width="130%" alt="">
+                <div class="small1366">
+                    <img class="banner3Img" src="img/pingpaishili/banner31.png" width="200%" alt="">
+                </div>
+                <div class="big1366">
+                    <img class="banner3Img" src="img/pingpaishili/banner31.png" width="160%" alt="">
+                </div>
 			</div>
 		</div>
 		<div class="banner4">
@@ -162,55 +311,130 @@
 				<div class="banner4Head">关于设计</div>
 				<div class="banner4Tip">Yvette薏凡特拥有来自法国、芬兰、美国、德国、中国大陆、中国台湾等全球知名的设计研发团队，以确保其卓越的设计研发能力。</div>
 			</div>
-			<img src="img/pingpaishili/banner4.png" width="100%" alt="">
+			<img src="img/pingpaishili/banner4.jpg" width="100%" alt="">
 
 		</div>
 		<div style="height: 30px;"></div>
+
 		<div class="banner4">
-			<div class="banner4Text" style="margin: 252px 0;">
-				<div class="banner4Head"  style="color: #494f5c">关于面料</div>
-				<div class="banner4Tip" style="color: #494f5c">Yvette薏凡特坚持选择高品质合作商，采购团队每年平均出差时间长达10个月，<br>
-					足迹遍布世界各地，只为寻找全球顶级的优质面料和纱线。
-				</div>
-				<div class="banner4Tip" style="color: #494f5c; margin: 25px 0;font-size: 20px;">
-					美国杜邦ATY空气变形纱技术 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;LYCAR®面料&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Coolmax面料&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 三文治面料
-				</div>
-				<div class="seeMore">
-					<img src="img/pingpaishili/viewMore.png" alt="">
-				</div>
-			</div>
+            <div class="small1366">
+                <div class="banner4Text" style="margin: 100px 0;">
+                    <div class="banner4Head"  style="color: #494f5c">关于面料</div>
+                    <div class="banner4Tip" style="color: #494f5c">Yvette薏凡特坚持选择高品质合作商，采购团队每年平均出差时间长达10个月，<br>
+                        足迹遍布世界各地，只为寻找全球顶级的优质面料和纱线。
+                    </div>
+                    <div class="banner4Tip" style="color: #494f5c; margin: 25px 0;font-size: 20px;">
+                        美国杜邦ATY空气变形纱技术 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;LYCAR®面料&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Coolmax面料&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 三文治面料
+                    </div>
+                    <div class="seeMore">
+                        <img src="img/pingpaishili/viewMore.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="big1366">
+                <div class="banner4Text" style="margin: 252px 0;">
+                    <div class="banner4Head"  style="color: #494f5c">关于面料</div>
+                    <div class="banner4Tip" style="color: #494f5c">Yvette薏凡特坚持选择高品质合作商，采购团队每年平均出差时间长达10个月，<br>
+                        足迹遍布世界各地，只为寻找全球顶级的优质面料和纱线。
+                    </div>
+                    <div class="banner4Tip" style="color: #494f5c; margin: 25px 0;font-size: 20px;">
+                        美国杜邦ATY空气变形纱技术 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;LYCAR®面料&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Coolmax面料&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 三文治面料
+                    </div>
+                    <div class="seeMore">
+                        <img src="img/pingpaishili/viewMore.png" alt="">
+                    </div>
+                </div>
+
+            </div>
 			<img src="img/pingpaishili/banner5.png" width="100%" alt="">
 		</div>
-		<div class="banner6" style="    height: 928px;">
-			<div class="col-md-7">
-				<div class="contentView" style="    margin: 324px 312px;">
-					<div class="conHead" style="font-size: 48px"> 关于工艺</div>
-					<div class="tip">
-						Yvette薏凡特追求细节与品质，为保证穿着者的理想体验，<br>
-						每件产品都需要经过10+次改版，30+道工序精心打磨。
-					</div>
-					<div class="seeMore">
-						<img src="img/pingpaishili/viewMore.png" alt="">
-					</div>
-				</div>
-			</div>
+		<div class="banner6">
+            <div class="small1366">
+                <div class="col-md-7">
+                    <div class="contentView" style=" margin: 141px 156px;">
+                        <div class="conHead" style="font-size: 48px"> 关于工艺</div>
+                        <div class="tip">
+                            Yvette薏凡特追求细节与品质，为保证穿着者的理想体验，<br>
+                            每件产品都需要经过10+次改版，30+道工序精心打磨。
+                        </div>
+                        <div class="seeMore">
+                            <img src="img/pingpaishili/viewMore.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="big1366">
+                <div class="col-md-7">
+                    <div class="contentView" style="    margin: 324px 312px;">
+                        <div class="conHead" style="font-size: 48px"> 关于工艺</div>
+                        <div class="tip">
+                            Yvette薏凡特追求细节与品质，为保证穿着者的理想体验，<br>
+                            每件产品都需要经过10+次改版，30+道工序精心打磨。
+                        </div>
+                        <div class="seeMore">
+                            <img src="img/pingpaishili/viewMore.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
 			<div class="col-md-5">
 				<img style="    margin-top: 85px;" src="img/pingpaishili/banner61.png" width="100%" alt="">
 			</div>
 		</div>
 		<div class="banner4">
 			<div class="banner4Text">
-				<div class="banner4Head">关于设计</div>
 				<div class="banner4Tip">Yvette<br>
 					已在9+个国家形成销售 <br>
 					中国，美国，日本，德国，芬兰，瑞士，法国，<br>
 					英国，澳大利亚...</div>
 			</div>
-			<img src="img/pingpaishili/banner7.png" width="100%" alt="">
+			<img src="img/pingpaishili/banner7.jpg" width="100%" alt="">
 
 		</div>
 
 	</div>
+<footer>
+	<div class="footer_top container-fluid">
+		<div class="col-md-10 col-md-offset-2">
+			<div class="footer_icon" style="width: 40px;height: 20px;margin-top: 45px">
+				<img src="img/tmall.png" alt="">
+			</div>
+			<div class="footer_icon">
+				<img src="img/ins.png" alt="">
+			</div>
+			<div class="footer_icon">
+				<img src="img/facebook-(1).png" alt="">
+			</div>
+			<div class="footer_icon">
+				<img src="img/wechat.png" alt="">
+			</div>
+			<div class="footer_icon">
+				<img src="img/wechat-little.png" alt="">
+			</div>
+		</div>
+	</div>
+	<div class="footer_bottom container-fluid">
+		<div class="col-md-3 col-md-offset-2">
+			<div>
+				<i style="background-image: url('img/phone.png');"></i><p>咨询热线：400-017-5585</p>
+			</div>
+			<div style="margin-top: 20px;">
+				<i style="background-image: url('img/message.png');"></i><p>服务邮箱：service@yvette.com.cn</p>
+			</div>
+		</div>
+		<!--<div class="col-md-3 col-md-3">-->
+		<!--<p>商业合作：13959900944</p>-->
+		<!--<p style="margin-top: 20px;">简历请投：pss@yvette.com.cn</p>-->
+		<!--</div>-->
+		<!--<div class="col-md-3 col-md-3">-->
+		<!--<p>座&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机：025-84659232</p>-->
+		<!--<p style="margin-top: 20px;">国内运营中心：江苏省南京市建邺区</p>-->
+		<!--</div>-->
+	</div>
+</footer>
 </body>
 </html>
 <script type="text/javascript" src="jQuery/jquery.min.js"></script>
