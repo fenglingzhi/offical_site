@@ -8,9 +8,10 @@
 	<meta name="referrer"content="unsafe-url">
 	<meta name="referrer"content="origin">
 	<style type="text/css">
-		.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+		.container-fluid,.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
 			padding: 0;
 		}
+		/* header css begin*/
 		header{
 			height: 150px;
 			width: 100%;
@@ -41,8 +42,9 @@
 			border-radius: 30px;
 			border: 1px solid #000;
 		}
+		/* header css end*/
 		.banner_1{
-			height: 994px;
+			/*height: 994px;*/
 		}
 		.banner_1 .banner_1_text{
 			text-align: center;
@@ -59,8 +61,8 @@
 			height: 270px;
 		}
 		.banner_2_body_content{
-			height: 320px;
-			padding: 80px 0;
+			/*height: 320px;*/
+			padding: 144px 0;
 			position: relative;
 		}
 		.banner_2_body_content p{
@@ -69,7 +71,7 @@
 			text-align: center;
 		}
 		.banner_2_body_right{
-			height: 590px;
+			/*height: 590px;*/
 			font-size: 36px;
 			text-align: center;
 			color: #fff;
@@ -86,7 +88,7 @@
 			cursor: pointer;
 		}
 		.banner_3_head_top{
-			height: 766px;
+			/*height: 766px;*/
 			margin-top: 130px;
 			padding: 340px 0;
 		}
@@ -96,7 +98,7 @@
 			font-size: 36px;
 		}
 		.banner_3_head_bottom_bg{
-			height: 344px;
+			/*height: 344px;*/
 			padding: 128px 0 !important;
 		}
 		.banner_3_head_bottom_bg p{
@@ -108,7 +110,7 @@
 			margin-top: 110px;
 		}
 		.banner_3_right_head{
-			height: 492px;
+			/*height: 492px;*/
 			padding: 200px 0;
 			text-align: center;
 			font-size: 36px;
@@ -121,23 +123,23 @@
 			font-size: 24px;
 		}
 		.banner_4{
-			height: 904px;
+			height: 830px;
 			position: relative;
 			padding: 0 100px;
 			margin-top: 180px;
 		}
 		.banner_4_text_wrap{
-			height: 450px;
+			/*height: 450px;*/
 			background: #d2b3bb;
 			color: #fff;
-			padding: 70px 100px 0 50px;
+			padding: 70px 100px 50px 50px;
 			font-size: 18px;
 			position: absolute;
 			overflow: auto;
-			top: 500px;
+			top: 390px;
 		}
 		.banner_4_right_wrap{
-			height: 600px;
+			height: 540px;
 			padding-left: 40px;
 			padding-top: 180px;
 		}
@@ -151,6 +153,9 @@
 			margin-top: 260px;
 			padding: 60px 200px;
 		}
+		.banner_5 .video_height{
+			height: 800px;
+		}
 		.banner_5_head{
 			margin-bottom: 60px;
 		}
@@ -163,6 +168,7 @@
 			padding: 45px;
 			margin-top: -10px;
 		}
+		/*footer css begin*/
 		footer{
 			margin-top: 500px;
 		}
@@ -198,10 +204,55 @@
 			height: 100%;
 		}
 		@media screen and (max-width: 1400px) {
+			.banner_2_body_content{
+				padding: 64px 0;
+			}
+			.banner_2_body_right{
+				padding: 190px 0;
+			}
+			.banner_3_right_head{
+				padding: 140px 0;
+			}
+			.banner_2_body_button{
+				margin-top: 4px;
+			}
+			.banner_3_head_top{
+				padding: 210px 0;
+			}
+			.banner_3_head_bottom_bg{
+				padding: 70px 0 !important;
+			}
+			.banner_4 {
+				height: 540px;
+				padding: 0px 100px;
+				margin-top: 180px;
+			}
+			.banner_4_text_wrap{
+				padding: 80px 70px 50px 37px;
+				font-size: 12px;
+				top: 160px;
+			}
+			.banner_4_right_wrap {
+				height: 350px;
+				padding-left: 40px;
+				padding-top: 100px;
+			}
+			.banner_4_right_wrap p {
+				line-height: 18px;
+				font-size: 28px;
+				font-weight: bold;
+			}
+			.banner_5 .video_height{
+				height: 500px;
+			}
+			footer{
+				margin-top: 300px;
+			}
 			.footer_bottom {
 				font-size: 12px;
 			}
 		}
+		/*footer css end*/
 	</style>
 </head>
 <body>
@@ -213,10 +264,10 @@
 			</div>
 			<div class="col-md-10 menu">
 				<div class="col-md-7">
-					<div class="col-md-3"><a class="menu_active">首页</a></div>
-					<div class="col-md-3"><a class="">品牌介绍</a></div>
-					<div class="col-md-3"><a class="">产品</a></div>
-					<div class="col-md-3"><a class="">品牌动态</a></div>
+					<div class="col-md-3"><a class="menu_active" href="./index.html">首页</a></div>
+					<div class="col-md-3"><a class="" href="./pingpaishili.html">品牌介绍</a></div>
+					<div class="col-md-3"><a class="" href="./product_page.html">产品</a></div>
+					<div class="col-md-3"><a class="" href="./pingpaidongtai.html">品牌动态</a></div>
 				</div>
 			</div>
 		</div>
@@ -320,7 +371,7 @@
 						</div>
 					</div>
 					<div class="col-md-9">
-						<div style="height: 600px;">
+						<div>
 							<video src="http://develop.yvette.com.cn/public/video/video.mp4"
 								   controls="controls"
 								   poster="img/video_bg.jpg"
@@ -344,7 +395,7 @@
 					<img src="img/banner_5_13.jpg" alt="" width="100%;">
 					<p style="margin-top: 20px;">Yvette 设计</p>
 				</div>
-				<div class="col-md-4" style="height: 800px;">
+				<div class="col-md-4 video_height">
 					<video src="http://develop.yvette.com.cn/public/video/lycra4K.mov"
 						   controls="controls"
 						   poster="img/banner_5_11.jpg"

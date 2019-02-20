@@ -10,76 +10,155 @@
 
 
 	<style type="text/css">
-		.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+		.container-fluid,.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
 			padding: 0;
 		}
-		.content{
+		.banner2{
+			margin: 56px 0;
+			height: 1078px;
 			background: #f7f7f7;
 		}
-		.text{
-			margin: 143px 86px;
-		}
-		.textHead{
-			font-size: 48px;
-			margin-top: 24px;
-			margin-bottom: 30px;
-
-		}
 		.textC{
-			font-size: 28px;
-			line-height: 43px;
-		}
 
+		}
+		@media screen and (max-width: 1600px) {
+			.content{
+				background: #fff;
+			}
+			.text{
+				margin: 69px 86px;
+			}
+			.textHead{
+				font-size: 30px;
+				margin-top: 24px;
+				margin-bottom: 15px;
+			}
+			.textC{
+				font-size: 20px;
+				line-height: 34px;
+			}
+			.small1366{
+				display: block;
+			}
+			.big1366{
+				display:none ;
+			}
+		}
+		@media screen and (min-width: 1601px) {
+			.content{
+				background: #fff;
+			}
+			.text{
+				margin: 143px 86px;
+			}
+			.textHead{
+				font-size: 48px;
+				margin-top: 24px;
+				margin-bottom: 30px;
+
+			}
+			.textC{
+				font-size: 28px;
+				line-height: 43px;
+			}
+			.small1366{
+				display: none;
+			}
+			.big1366{
+				display: block;
+			}
+		}
+		.Cooldog_content a{
+			color: #0f0f0f;
+			text-decoration: none;
+			cursor: pointer;
+			position: absolute;
+			left: 50%;
+			margin-left: -50px;
+			margin-top: -80px;
+		}
+		.footer_bottom {
+			height: 180px;
+			background: #f5f7f9;
+			padding: 70px 0;
+			font-size: 14px;
+			font-weight: bold;
+			text-align: left;
+		}
+		footer{
+			margin-top: 0;
+		}
 	</style>
 </head>
 <body style="background: #fff">
+<header class="container-fluid">
+	<div class="row">
+		<div class="col-md-2 logo">
+			<span>Yvette</span>
+			<span><img src="img/logo.jpg"></span>
+		</div>
+		<div class="col-md-10 menu">
+			<div class="col-md-7">
+				<div class="col-md-3"><a class="menu_active" href="./index.html">首页</a></div>
+				<div class="col-md-3"><a class="" href="./pingpaishili.html">品牌介绍</a></div>
+				<div class="col-md-3"><a class="" href="./product_page.html">产品</a></div>
+				<div class="col-md-3"><a class="" href="./pingpaidongtai.html">品牌动态</a></div>
+			</div>
+		</div>
+	</div>
+</header>
 	<div class="content" >
 		<div class="banner1">
-			<img src="img/pingpaidongtai/banner1.png" width="100%" alt="">
+			<img src="img/pingpaidongtai/banner1.jpg" width="100%" alt="">
+			<!--<div class="textC">-->
+				<!--<div>WE ARE HERE</div>-->
+			<!--</div>-->
 		</div>
 		<div class="banner2" style="margin: 56px 0;">
 			<div class="Cooldog_container">
 				<div class="Cooldog_content">
 					<ul>
 						<li class="p1">
-							<img src="img/pingpaidongtai/s1.png" width="100%" alt="">
-							<a href="#" >
+							<img src="img/pingpaidongtai/s1.jpg" width="100%" alt="">
+							<a href="#f" >
+								<img  src="img/pingpaidongtai/viewMore.jpg" alt="">
 							</a>
 						</li>
 						<li class="p2">
-							<img src="img/pingpaidongtai/s2.png" width="100%" alt="">
-							<a href="#">
-
+							<img src="img/pingpaidongtai/s2.jpg" width="100%" alt="">
+							<a href="#d">
+								<img width="186" src="img/pingpaidongtai/viewMore.jpg" alt="">
 							</a>
 						</li>
 						<li class="p3">
-							<img src="img/pingpaidongtai/s3.png" width="100%" alt="">
-							<a href="#">
 
+							<img src="img/pingpaidongtai/s3.jpg" width="100%" alt="">
+							<a href="#s">
+								<img  width="186" src="img/pingpaidongtai/viewMore.jpg" alt="">
 							</a>
 						</li>
 						<li class="p4">
-							<img src="img/pingpaidongtai/s4.png" width="100%" alt="">
-							<a href="#">
-
+							<img src="img/pingpaidongtai/s4.jpg" width="100%" alt="">
+							<a href="#a">
+								<img  width="186" src="img/pingpaidongtai/viewMore.jpg" alt="">
 							</a>
 						</li>
 						<li class="p5">
-							<img src="img/pingpaidongtai/s1.png" width="100%" alt="">
-							<a href="#">
-
+							<img src="img/pingpaidongtai/s1.jpg" width="100%" alt="">
+							<a href="#f">
+								<img  width="186" src="img/pingpaidongtai/viewMore.jpg" alt="">
 							</a>
 						</li>
 						<li class="p6">
-							<img src="img/pingpaidongtai/s2.png" width="100%" alt="">
-							<a href="#">
-
+							<img src="img/pingpaidongtai/s2.jpg" width="100%" alt="">
+							<a href="#d">
+								<img src="img/pingpaidongtai/viewMore.jpg" alt="">
 							</a>
 						</li>
 						<li class="p7">
-							<img src="img/pingpaidongtai/s3.png" width="100%" alt="">
-							<a href="#">
-
+							<img src="img/pingpaidongtai/s3.jpg" width="100%" alt="">
+							<a href="#s">
+								<img  width="186" src="img/pingpaidongtai/viewMore.jpg" alt="">
 							</a>
 						</li>
 					</ul>
@@ -103,13 +182,15 @@
 
 		</div>
 		<div class="banner3">
+			<a name="a"></a>
+
 			<div class="col-md-6">
-				<img src="img/pingpaidongtai/banner3.png" width="100%" alt="">
+				<img src="img/pingpaidongtai/banner3.jpg" width="100%" alt="">
 				<div style="height: 40px"></div>
 			</div>
 			<div class="col-md-6">
 				<div class="text">
-					<img src="img/logo.png" width="80" alt="">
+					<img src="img/logo.jpg" width="80" alt="">
 					<div class="textHead">
 						MUDDY ANGLE <br>
 						WOMEN MUD RUN<br>
@@ -127,15 +208,17 @@
 			</div>
 		</div>
 		<div class="banner4">
-			<img src="img/pingpaidongtai/banner4.png" width="100%" alt="">
+			<img src="img/pingpaidongtai/banner4.jpg" width="100%" alt="">
 		</div>
+		<div style="height: 20px;"></div>
+		<a name="s"></a>
 		<div class="banner3">
 
 			<div class="col-md-6">
 				<div class="text" style=" text-align: right;">
-					<img src="img/logo.png" width="80" alt="">
+					<img src="img/logo.jpg" width="80" alt="">
 					<div class="textHead">
-						南京长江大桥 <br>
+						南京长江大桥<br>
 						50周年纪念跑
 					</div>
 					<div class="textC">
@@ -147,21 +230,22 @@
 				</div>
 			</div>
 			<div class="col-md-6">
-				<img src="img/pingpaidongtai/banner5.png" width="100%" alt="">
-				<div style="height: 40px"></div>
+				<img src="img/pingpaidongtai/banner5.jpg" width="100%" alt="">
+				<div style="height: 10px"></div>
 			</div>
 		</div>
 		<div class="banner4">
-			<img src="img/pingpaidongtai/banner6.png" width="100%" alt="">
+			<img src="img/pingpaidongtai/banner6.jpg" width="100%" alt="">
 		</div>
 		<div class="banner3">
+			<a name="d"></a>
 			<div class="col-md-6">
-				<img src="img/pingpaidongtai/banner7.png" width="100%" alt="">
-				<div style="height: 40px"></div>
+				<img src="img/pingpaidongtai/banner7.jpg" width="100%" alt="">
+				<div style="height: 10px"></div>
 			</div>
 			<div class="col-md-6">
-				<div class="text" style="    margin: 300px 86px;">
-					<img src="img/logo.png" width="80" alt="">
+				<div class="text" style="    margin:180px 86px;">
+					<img src="img/logo.jpg" width="80" alt="">
 					<div class="textHead">
 						北京马拉松
 					</div>
@@ -174,14 +258,14 @@
 			</div>
 		</div>
 		<div class="banner4">
-			<img src="img/pingpaidongtai/banner8.png" width="100%" alt="">
+			<img src="img/pingpaidongtai/banner8.jpg" width="100%" alt="">
 		</div>
 
 		<div class="banner3">
-
+			<a name="f"></a>
 			<div class="col-md-6">
-				<div class="text" style=" text-align: right;margin: 250px 86px;">
-					<img src="img/logo.png" width="80" alt="">
+				<div class="text" style=" text-align: right;margin:172px 86px">
+					<img src="img/logo.jpg" width="80" alt="">
 					<div class="textHead">
 						悦跑圈粉红女子跑
 					</div>
@@ -194,18 +278,57 @@
 				</div>
 			</div>
 			<div class="col-md-6">
-				<img src="img/pingpaidongtai/banner9.png" width="100%" alt="">
-				<div style="height: 40px"></div>
+				<img src="img/pingpaidongtai/banner9.jpg" width="100%" alt="">
+				<div style="height: 20px"></div>
 			</div>
 		</div>
 		<div class="banner4">
-			<img src="img/pingpaidongtai/banner10.png" width="100%" alt="">
+			<img src="img/pingpaidongtai/banner10.jpg" width="100%" alt="">
 		</div>
 		<div class="bannerF">
-			<img src="img/pingpaidongtai/banner11.png" width="100%" alt="">
+			<img src="img/pingpaidongtai/banner11.jpg" width="100%" alt="">
 		</div>
 
 	</div>
+<footer>
+	<div class="footer_top container-fluid">
+		<div class="col-md-10 col-md-offset-2">
+			<div class="footer_icon" style="width: 40px;height: 20px;margin-top: 45px">
+				<img src="img/tmall.png" alt="">
+			</div>
+			<div class="footer_icon">
+				<img src="img/ins.png" alt="">
+			</div>
+			<div class="footer_icon">
+				<img src="img/facebook-(1).png" alt="">
+			</div>
+			<div class="footer_icon">
+				<img src="img/wechat.png" alt="">
+			</div>
+			<div class="footer_icon">
+				<img src="img/wechat-little.png" alt="">
+			</div>
+		</div>
+	</div>
+	<div class="footer_bottom container-fluid">
+		<div class="col-md-3 col-md-offset-2">
+			<div>
+				<i style="background-image: url('img/phone.png');"></i><p>咨询热线：400-017-5585</p>
+			</div>
+			<div style="margin-top: 20px;">
+				<i style="background-image: url('img/message.png');"></i><p>服务邮箱：service@yvette.com.cn</p>
+			</div>
+		</div>
+		<!--<div class="col-md-3 col-md-3">-->
+		<!--<p>商业合作：13959900944</p>-->
+		<!--<p style="margin-top: 20px;">简历请投：pss@yvette.com.cn</p>-->
+		<!--</div>-->
+		<!--<div class="col-md-3 col-md-3">-->
+		<!--<p>座&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机：025-84659232</p>-->
+		<!--<p style="margin-top: 20px;">国内运营中心：江苏省南京市建邺区</p>-->
+		<!--</div>-->
+	</div>
+</footer>
 </body>
 </html>
 <script type="text/javascript" src="jQuery/jquery.min.js"></script>
