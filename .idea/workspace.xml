@@ -1,7 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="3be4f7aa-ee0c-4f59-af94-dd14e6f38e55" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="3be4f7aa-ee0c-4f59-af94-dd14e6f38e55" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/gongyi.html" afterPath="$PROJECT_DIR$/gongyi.html" />
+      <change beforePath="$PROJECT_DIR$/img/mianliao/banner.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/mianliao/banner1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/mianliao/banner2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/mianliao/banner3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/mianliao/banner5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/mianliao/banner6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/mianliao/images/banner2_01.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/mianliao/images/banner2_02.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/mianliao/images/banner2_03.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/mianliao/images/banner2_04.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/mianliao/images/banner2_05.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaidongtai/banner1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaidongtai/banner10.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaidongtai/banner11.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaidongtai/banner3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaidongtai/banner4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaidongtai/banner5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaidongtai/banner6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaidongtai/banner7.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaidongtai/banner8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaidongtai/banner9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaidongtai/s1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaidongtai/s2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaidongtai/s3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaidongtai/s4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaidongtai/viewMore.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaishili/banner.jpg" afterPath="$PROJECT_DIR$/img/pingpaishili/banner.jpg" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaishili/banner.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaishili/banner3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaishili/banner31.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaishili/banner32.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaishili/banner33.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaishili/banner4.jpg" afterPath="$PROJECT_DIR$/img/pingpaishili/banner4.jpg" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaishili/banner4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaishili/banner5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaishili/banner6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaishili/banner61.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaishili/banner7.jpg" afterPath="$PROJECT_DIR$/img/pingpaishili/banner7.jpg" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaishili/banner7.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaishili/jiantou.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/pingpaishili/viewMore.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/mianliao.html" afterPath="$PROJECT_DIR$/mianliao.html" />
+      <change beforePath="$PROJECT_DIR$/pingpaidongtai.html" afterPath="$PROJECT_DIR$/pingpaidongtai.html" />
+      <change beforePath="$PROJECT_DIR$/pingpaishili.html" afterPath="$PROJECT_DIR$/pingpaishili.html" />
+>>>>>>> 3283bdb10663262908692192bb57714a8adc4784
+    </list>
+>>>>>>> fad479a560fc5737998a3c47269d5e6941ca8b93
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -293,14 +349,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550300432578</updated>
+<<<<<<< HEAD
+      <workItem from="1550300435454" duration="22432000" />
+=======
       <workItem from="1550300435454" duration="11446000" />
       <workItem from="1550469717795" duration="2312000" />
+<<<<<<< HEAD
       <workItem from="1550539827430" duration="23429000" />
+=======
+      <workItem from="1550539827430" duration="23361000" />
+>>>>>>> 3283bdb10663262908692192bb57714a8adc4784
+>>>>>>> fad479a560fc5737998a3c47269d5e6941ca8b93
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="37187000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="22432000" />
+=======
+    <option name="totallyTimeSpent" value="37119000" />
+>>>>>>> 3283bdb10663262908692192bb57714a8adc4784
+>>>>>>> fad479a560fc5737998a3c47269d5e6941ca8b93
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
