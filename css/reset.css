@@ -2,7 +2,8 @@
 	margin: 0;
 	padding: 0;
 	/*font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;*/
-	font-family: Montserrat;
+	font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+	/*font-family: Montserrat;*/
 }
 a,a:hover,a:active,a:focus{
 	color: #0f0f0f;
