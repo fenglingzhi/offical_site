@@ -33,12 +33,12 @@ header .menu{
 	font-size: 20px;
 	text-align: center;
 }
-/*header .menu .menu_active{*/
-/*padding: 8px 40px;*/
-/*border-radius: 20px;*/
-/*border: 1px solid #000;*/
-/*font-weight: bold;*/
-/*}*/
+header .menu .menu_active{
+padding: 8px 40px;
+border-radius: 20px;
+border: 1px solid #000;
+font-weight: bold;
+}
 header .menu a:hover{
 	padding: 8px 40px;
 	border-radius: 30px;

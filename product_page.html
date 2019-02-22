@@ -60,11 +60,17 @@
             font-weight: bold;
             margin-bottom: 30px;
         }
+        #product_page .banner_3 .text .content{
+            line-height: 50px;
+        }
         @media screen and (max-width: 1400px) {
             #product_page .banner_3 .text{
                 bottom: 50px;
                 right: 8%;
                 font-size: 18px;
+            }
+            #product_page .banner_3 .text .content{
+                line-height: 40px;
             }
         }
         #product_page .banner_4{
@@ -240,10 +246,12 @@
             border: 2px solid #e3867f;
             font-size: 24px;
             text-align: center;
+            color: #e3867f;
 
         }
         #product_page .banner_7 .bottom p{
             font-size: 18px;
+            margin-top: 20px;
         }
         @media screen and (max-width: 1400px) {
             #product_page .banner_7 .top{
@@ -273,6 +281,7 @@
             }
             #product_page .banner_7 .bottom p{
                 font-size: 12px;
+                margin-top: 10px;
             }
         }
         #product_page .banner_8{
@@ -342,12 +351,15 @@
         #product_page .banner_9 .line_item_2{
             background: url(img/product-PC_04.jpg) no-repeat;
             background-size: 100% 100%;
+            cursor: pointer;
         }
         #product_page .banner_9 .line_item_3{
             background: #f1a6a1;
+            cursor: pointer;
         }
         #product_page .banner_9 .line_item_4{
             background: #f1bab7;
+            cursor: pointer;
         }
         .product_slider_wrap{
             background: #ededed;
@@ -443,28 +455,27 @@
     </style>
 </head>
 <body>
-    <header class="container-fluid">
-        <div class="row">
-            <div class="col-md-2 logo">
-                <span>Yvette</span>
-                <span><img src="img/logo.png"></span>
-            </div>
-            <div class="col-md-10 menu">
-                <div class="col-md-7">
-                    <div class="col-md-3"><a class="menu_active" href="./index.html">首页</a></div>
-                    <div class="col-md-3"><a class="" href="./pingpaishili.html">品牌介绍</a></div>
-                    <div class="col-md-3"><a class="" href="./product_page.html">产品</a></div>
-                    <div class="col-md-3"><a class="" href="./pingpaidongtai.html">品牌动态</a></div>
-                </div>
+<header class="container-fluid">
+    <div class="row">
+        <div class="col-md-2 logo">
+            <span><img src="img/logo.png" style="width: 100%;"></span>
+        </div>
+        <div class="col-md-10 menu">
+            <div class="col-md-7">
+                <div class="col-md-3"><a class="" href="./index.html">首页</a></div>
+                <div class="col-md-3"><a class="" href="./pingpaishili.html">品牌介绍</a></div>
+                <div class="col-md-3"><a class="menu_active" href="./product_page.html">产品</a></div>
+                <div class="col-md-3"><a class="" href="./pingpaidongtai.html">品牌动态</a></div>
             </div>
         </div>
-    </header>
+    </div>
+</header>
     <div id="product_page">
         <div class="banner_1">
             <img src="img/product_page_banner_1.jpg" alt="">
         </div>
         <div class="banner_2">
-            <p>Yvette想要表达的，不仅是服装，
+            <p style="line-height: 40px;">Yvette想要表达的，不仅是服装，
                 <br>更是一种生活主张。
                 <br>Yvette相信每一位女性的身体都有着独特的美感，
                 <br>值得尊重并应该自信地展示出来。
@@ -474,7 +485,7 @@
         <div class="banner_3">
             <div class="text">
                 <p class="title">YVETTE DESIGNER TEAM</p>
-                <p>Yvette拥有来自法国、芬兰、美国、德国、<br>
+                <p class="content">Yvette拥有来自法国、芬兰、美国、德国、<br>
                 中国大陆、中国台湾等全球知名的设计研发团队，<br>
                 以确保其卓越的设计研发能力。<br><br>
                 设计师坚信：<br>
@@ -619,7 +630,7 @@
                     <p class="text_1">运动有强度之分</p>
                     <p class="text_2">高强度运动、中强度运动、低强度运动</p>
                 </div>
-                <div class="line_item line_item_2">
+                <div class="line_item line_item_2" onclick="change_slider(0)">
                     <ul>
                         <li>高强度运动内衣：</li>
                     </ul>
@@ -628,7 +639,7 @@
                         适合运动：<br>
                         跑步、球类、拳击、田径等</p>
                 </div>
-                <div class="line_item line_item_3">
+                <div class="line_item line_item_3" onclick="change_slider(1)">
                     <ul>
                         <li>中强度运动内衣：</li>
                     </ul>
@@ -637,7 +648,7 @@
                         适合运动：<br>
                         骑行、竞走、攀岩、重量训练</p>
                 </div>
-                <div class="line_item line_item_4">
+                <div class="line_item line_item_4" onclick="change_slider(2)">
                     <ul>
                         <li>低强度运动内衣：</li>
                     </ul>
@@ -746,6 +757,9 @@
 <script type="text/javascript" src="bootstrap/bootstrap.min.js"></script>
 <script>
     $('.carousel').carousel({
-        interval: 2000
+        interval: false
     })
+    function change_slider(num) {
+        $(".carousel").carousel(num);
+    }
 </script>
