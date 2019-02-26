@@ -139,7 +139,7 @@
 			top: 390px;
 		}
 		.banner_4_right_wrap{
-			height: 540px;
+			height: 536px;
 			padding-left: 40px;
 			padding-top: 180px;
 		}
@@ -155,6 +155,14 @@
 		}
 		.banner_5 .video_height{
 			height: 800px;
+			position: relative;
+		}
+		.banner_5 .video_height .video_play{
+			height: 100px;
+			width: 100px;
+		}
+		.banner_5 .video_height .video_play img{
+			width: 100%;
 		}
 		.banner_5_head{
 			margin-bottom: 60px;
@@ -167,6 +175,35 @@
 			background: #ffd3d2;
 			padding: 45px;
 			margin-top: -10px;
+		}
+		.box{
+			width: 100%;
+			position: fixed;
+			background: rgba(0,0,0,0.9);
+			top: 0;
+			left: 0;
+			display: none;
+		}
+		.box video{
+			width: 1000px;
+			height: auto;
+			position: absolute;
+			margin-left: -500px;
+			left: 50%;
+			top: 20%;
+			display: none;
+		}
+		.closesss{
+			width: 40px;
+			height: 40px;
+			position: absolute;
+			right: 4%;
+			top: 4%;
+			color: #fff;
+			font-size: 40px;
+			line-height: 40px;
+			text-align: center;
+			cursor: pointer;
 		}
 		/*footer css begin*/
 		footer{
@@ -233,7 +270,7 @@
 				top: 160px;
 			}
 			.banner_4_right_wrap {
-				height: 350px;
+				height: 368px;
 				padding-left: 40px;
 				padding-top: 100px;
 			}
@@ -371,13 +408,14 @@
 					</div>
 					<div class="col-md-9">
 						<div>
-							<video src="http://develop.yvette.com.cn/public/video/video.mp4"
-								   controls="controls"
-								   poster="img/video_bg.jpg"
-								   preload="load"
-								   width="100%"
-								   style="object-fit: fill"
-								   height="100%">您的浏览器不支持 vdieo 播放</video>
+							<!--<video src="http://develop.yvette.com.cn/public/video/video.mp4"-->
+								   <!--controls="controls"-->
+								   <!--poster="img/video_bg.jpg"-->
+								   <!--preload="load"-->
+								   <!--width="100%"-->
+								   <!--style="object-fit: fill"-->
+								   <!--height="100%">您的浏览器不支持 vdieo 播放</video>-->
+							<img src="img/video_bg.jpg" alt="" width="100%;" style="cursor: pointer" onclick="video_play('.video_1')">
 						</div>
 
 					</div>
@@ -395,13 +433,14 @@
 					<p style="margin-top: 20px;">Yvette 设计</p>
 				</div>
 				<div class="col-md-4 video_height">
-					<video src="http://develop.yvette.com.cn/public/video/lycra4K.mov"
-						   controls="controls"
-						   poster="img/banner_5_11.jpg"
-						   preload="load"
-						   width="100%"
-						   style="object-fit: fill"
-						   height="100%">您的浏览器不支持 vdieo 播放</video>
+					<!--<video src="http://develop.yvette.com.cn/public/video/lycra4K.mov"-->
+						   <!--controls="controls"-->
+						   <!--poster="img/banner_5_11.jpg"-->
+						   <!--preload="load"-->
+						   <!--width="100%"-->
+						   <!--style="object-fit: fill"-->
+						   <!--height="100%">您的浏览器不支持 vdieo 播放</video>-->
+					<img src="img/banner_5_11.jpg" alt=""  width="100%;" style="cursor: pointer" onclick="video_play('.video_2')">
 					<div class="video_text_wrap">
 						Yvette 面料科技
 					</div>
@@ -452,8 +491,45 @@
 			<!--</div>-->
 		</div>
 	</footer>
+	<div class="box">
+		<video src="http://develop.yvette.com.cn/public/video/video.mp4"
+			class="video_pause video_1"
+			controls="controls"
+			preload="load"
+			width="100%"
+			style="object-fit: fill"
+			height="100%">您的浏览器不支持 vdieo 播放</video>
+		<video src="http://develop.yvette.com.cn/public/video/lycra4K.mov"
+			class="video_pause video_2"
+			controls="controls"
+			poster="img/banner_5_11.jpg"
+			preload="load"
+			width="100%"
+			style="object-fit: fill"
+			height="100%">您的浏览器不支持 vdieo 播放</video>
+		<div class="closesss" onclick="closesss()">×</div>
+	</div>
 </body>
 </html>
 <script type="text/javascript" src="jQuery/jquery.min.js"></script>
 <script type="text/javascript" src="bootstrap/bootstrap-theme.min.css"></script>
 <script type="text/javascript" src="bootstrap/bootstrap.min.js"></script>
+<script>
+	$('.box').height($(window).height());
+	$('.box').width($(window).width());
+	function closesss() {
+		$('.box').css('display','none');
+        var media1 = $("video").get(0);
+        var media2 = $("video").get(1);
+        media1.pause();
+        media1.currentTime = 0;
+        media2.pause();
+        media2.currentTime = 0;
+        $('video').css('display','none');
+    }
+    function video_play(video_num) {
+		$('.box').css('display','block');
+		$(video_num).css('display','block');
+		$(video_num).reload();
+    }
+</script>
