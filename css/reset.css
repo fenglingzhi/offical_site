@@ -26,7 +26,7 @@ header .logo{
 	text-align: center;
 }
 header .logo span{
-	margin-left: 10px;
+	/*margin-left: 10px;*/
 }
 header .menu{
 	line-height: 150px;
