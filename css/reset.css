@@ -47,7 +47,7 @@ header .menu a:hover{
 /* header css end*/
 /*footer css begin*/
 footer{
-	margin-top: 500px;
+	margin-top: 300px;
 }
 .footer_top{
 	height: 100px;
@@ -84,5 +84,18 @@ footer{
 	.footer_bottom {
 		font-size: 12px;
 	}
+}
+.wechat,.wechat_little{
+	position: relative;
+}
+/*.wechat_little:hover{*/
+	/*display: block;*/
+/*}*/
+.wechat_wrap,.wechat_little_wrap{
+	position: absolute;
+	top: -230px;
+	right: -80px;
+	width: 200px;
+	display: none;
 }
 /*footer css end*/

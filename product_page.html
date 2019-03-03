@@ -5,6 +5,7 @@
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <script type="text/javascript" src="jQuery/jquery.min.js"></script>
     <meta name="referrer"content="unsafe-url">
     <meta name="referrer"content="origin">
     <style type="text/css">
@@ -40,19 +41,19 @@
         }
         #product_page .banner_3{
             width: 100%;
-            height: 1500px;
-            background: url("img/product_banner_3_bg.jpg") no-repeat;
-            background-size:  100% 100%;
+            /*height: 1500px;*/
+            /*background: url("img/product_banner_3_bg.jpg") no-repeat;*/
+            /*background-size:  100% 100%;*/
             font-size: 24px;
             color: #494f5c;
-            padding-left: 170px;
+            /*padding-left: 170px;*/
             margin-bottom: 50px;
             position: relative;
         }
         #product_page .banner_3 .text{
             position: absolute;
-            bottom: 50px;
-            right: 12%;
+            bottom: -30px;
+            right: 8%;
             font-size: 30px;
         }
         #product_page .banner_3 .text .title{
@@ -64,13 +65,16 @@
             line-height: 50px;
         }
         @media screen and (max-width: 1600px) {
+            #product_page .banner_3 .text .title{
+                font-size: 24px;
+            }
             #product_page .banner_3 .text{
-                bottom: 50px;
-                right: 8%;
+                bottom: 20px;
+                right: 14%;
                 font-size: 18px;
             }
             #product_page .banner_3 .text .content{
-                line-height: 40px;
+                line-height: 24px;
             }
         }
         #product_page .banner_4{
@@ -489,6 +493,7 @@
                 <br>或动或静，力图将女性天然的美展现得淋漓尽致。</p>
         </div>
         <div class="banner_3">
+            <img src="img/product_banner_3_bg.jpg" alt="" style="width: 100%;">
             <div class="text">
                 <p class="title">YVETTE DESIGNER TEAM</p>
                 <p class="content">Yvette拥有来自法国、芬兰、美国、德国、<br>
@@ -719,48 +724,67 @@
 
         </div>
     </div>
-    <footer>
-        <div class="footer_top container-fluid">
-            <div class="col-md-10 col-md-offset-2">
-                <div class="footer_icon" style="width: 40px;height: 20px;margin-top: 45px">
-                    <img src="img/tmall.png" alt="">
+<footer>
+    <div class="footer_top container-fluid">
+        <div class="col-md-10 col-md-offset-2">
+            <div class="footer_icon" style="width: 40px;height: 20px;margin-top: 45px">
+                <img src="img/tmall.png" alt="">
+            </div>
+            <div class="footer_icon">
+                <img src="img/ins.png" alt="">
+            </div>
+            <div class="footer_icon">
+                <img src="img/facebook-(1).png" alt="">
+            </div>
+            <div class="footer_icon wechat">
+                <img src="img/wechat.png" alt="">
+                <div class="wechat_wrap">
+                    <img src="img/pc端公众号.png" alt="">
                 </div>
-                <div class="footer_icon">
-                    <img src="img/ins.png" alt="">
-                </div>
-                <div class="footer_icon">
-                    <img src="img/facebook-(1).png" alt="">
-                </div>
-                <div class="footer_icon">
-                    <img src="img/wechat.png" alt="">
-                </div>
-                <div class="footer_icon">
-                    <img src="img/wechat-little.png" alt="">
+            </div>
+            <div class="footer_icon wechat_little">
+                <img src="img/wechat-little.png" alt="">
+                <div class="wechat_little_wrap">
+                    <img src="img/pc端小程序.png" alt="">
                 </div>
             </div>
         </div>
-        <div class="footer_bottom container-fluid">
-            <div class="col-md-3 col-md-offset-2">
-                <div>
-                    <i style="background-image: url('img/phone.png');"></i><p>咨询热线：400-017-5585</p>
-                </div>
-                <div style="margin-top: 20px;">
-                    <i style="background-image: url('img/message.png');"></i><p>服务邮箱：service@yvette.com.cn</p>
-                </div>
+        <script>
+            $(function () {
+                $('.wechat').hover(function () {
+                    $('.wechat_wrap').css('display','block')
+                },function () {
+                    $('.wechat_wrap').css('display','none')
+                })
+                $('.wechat_little').hover(function () {
+                    $('.wechat_little_wrap').css('display','block')
+                },function () {
+                    $('.wechat_little_wrap').css('display','none')
+                })})
+        </script>
+    </div>
+    <div class="footer_bottom container-fluid">
+        <div class="col-md-3 col-md-offset-2">
+            <div>
+                <i style="background-image: url('img/phone.png');"></i><p>咨询热线：400-017-5585</p>
             </div>
-            <!--<div class="col-md-3 col-md-3">-->
-            <!--<p>商业合作：13959900944</p>-->
-            <!--<p style="margin-top: 20px;">简历请投：pss@yvette.com.cn</p>-->
-            <!--</div>-->
-            <!--<div class="col-md-3 col-md-3">-->
-            <!--<p>座&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机：025-84659232</p>-->
-            <!--<p style="margin-top: 20px;">国内运营中心：江苏省南京市建邺区</p>-->
-            <!--</div>-->
+            <div style="margin-top: 20px;">
+                <i style="background-image: url('img/message.png');"></i><p>服务邮箱：service@yvette.com.cn</p>
+            </div>
         </div>
-    </footer>
+        <!--<div class="col-md-3 col-md-3">-->
+        <!--<p>商业合作：13959900944</p>-->
+        <!--<p style="margin-top: 20px;">简历请投：pss@yvette.com.cn</p>-->
+        <!--</div>-->
+        <!--<div class="col-md-3 col-md-3">-->
+        <!--<p>座&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机：025-84659232</p>-->
+        <!--<p style="margin-top: 20px;">国内运营中心：江苏省南京市建邺区</p>-->
+        <!--</div>-->
+    </div>
+</footer>
 </body>
 </html>
-<script type="text/javascript" src="jQuery/jquery.min.js"></script>
+
 <script type="text/javascript" src="bootstrap/bootstrap-theme.min.css"></script>
 <script type="text/javascript" src="bootstrap/bootstrap.min.js"></script>
 <script>

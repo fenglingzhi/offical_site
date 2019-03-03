@@ -5,6 +5,7 @@
 	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<script type="text/javascript" src="jQuery/jquery.min.js"></script>
 	<style type="text/css">
 		.container-fluid,.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
 			padding: 0;
@@ -263,7 +264,7 @@
 		<div class="banner2" >
 			<div class="col-md-8">
 				<div class="text">
-					<span style="font-size: 100px;margin-left: -40px;"><img src="img/pingpaishili/yinhao.png" alt=""></span> 女性坚持运动，是因为运动本身，<br>
+					<span style="font-size: 100px;margin-left: -106px;"><img src="img/pingpaishili/yinhao.png" alt=""></span> 女性坚持运动，是因为运动本身，<br>
 					因为运动带来的汗水、多巴胺、肌肉酸痛和退却后全身心的放松，<br>
 					是一种对运动的充分享受，是对健康生活方式的一种热爱。<br>
 					女性的独立，赋予了她们独特的魅力，<br>
@@ -328,7 +329,7 @@
                         足迹遍布世界各地，只为寻找全球顶级的优质面料和纱线。
                     </div>
                     <div class="banner4Tip" style="color: #494f5c; margin: 25px 0;font-size: 20px;">
-                        美国杜邦ATY空气变形纱技术 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;LYCRA®面料&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Coolmax面料&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 三文治面料
+                        美国杜邦ATY空气变形纱技术 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;LYCAR®面料&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Coolmax面料&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 三文治面料
                     </div>
                     <div class="seeMore">
                         <img src="img/pingpaishili/viewMore.jpg" alt="">
@@ -412,13 +413,32 @@
 			<div class="footer_icon">
 				<img src="img/facebook-(1).png" alt="">
 			</div>
-			<div class="footer_icon">
+			<div class="footer_icon wechat">
 				<img src="img/wechat.png" alt="">
+				<div class="wechat_wrap">
+					<img src="img/pc端公众号.png" alt="">
+				</div>
 			</div>
-			<div class="footer_icon">
+			<div class="footer_icon wechat_little">
 				<img src="img/wechat-little.png" alt="">
+				<div class="wechat_little_wrap">
+					<img src="img/pc端小程序.png" alt="">
+				</div>
 			</div>
 		</div>
+		<script>
+			$(function () {
+				$('.wechat').hover(function () {
+					$('.wechat_wrap').css('display','block')
+				},function () {
+					$('.wechat_wrap').css('display','none')
+				})
+				$('.wechat_little').hover(function () {
+					$('.wechat_little_wrap').css('display','block')
+				},function () {
+					$('.wechat_little_wrap').css('display','none')
+				})})
+		</script>
 	</div>
 	<div class="footer_bottom container-fluid">
 		<div class="col-md-3 col-md-offset-2">
@@ -441,7 +461,7 @@
 </footer>
 </body>
 </html>
-<script type="text/javascript" src="jQuery/jquery.min.js"></script>
+
 <script type="text/javascript" src="bootstrap/bootstrap-theme.min.css"></script>
 <script type="text/javascript" src="bootstrap/bootstrap.min.js"></script>
 <script>
