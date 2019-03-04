@@ -5,6 +5,7 @@
 	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<script type="text/javascript" src="jQuery/jquery.min.js"></script>
 	<meta name="referrer"content="unsafe-url">
 	<meta name="referrer"content="origin">
 	<style type="text/css">
@@ -22,6 +23,7 @@
 			font-size: 24px;
 			line-height: 150px;
 			text-align: center;
+			padding: 0px 80px;
 		}
 		header .logo span{
 			margin-left: 10px;
@@ -45,13 +47,17 @@
 		/* header css end*/
 		.banner_1{
 			/*height: 994px;*/
+			position: relative;
 		}
 		.banner_1 .banner_1_text{
 			text-align: center;
-			line-height: 994px;
+			/*line-height: 994px;*/
 			font-size: 72px;
+			top: 45%;
+			left: 30%;
 			color: #fff;
 			font-weight: bold;
+			position: absolute;
 		}
 		.banner_2 .banner_2_head{
 			padding: 100px 0;
@@ -62,7 +68,7 @@
 		}
 		.banner_2_body_content{
 			/*height: 320px;*/
-			padding: 144px 0;
+			/*padding: 144px 0;*/
 			position: relative;
 		}
 		.banner_2_body_content p{
@@ -70,12 +76,23 @@
 			font-size: 30px;
 			text-align: center;
 		}
+		.banner_2_text_wrap{
+			position: absolute;
+			top: 45%;
+			left: 24%;
+		}
 		.banner_2_body_right{
 			/*height: 590px;*/
 			font-size: 36px;
 			text-align: center;
 			color: #fff;
-			padding: 270px 0;
+			position: relative;
+			/*padding: 270px 0;*/
+		}
+		.banner_2_body_right_text_wrap{
+			position: absolute;
+			top: 45%;
+			left: 40%;
 		}
 		.banner_2_body_button{
 			width: 140px;
@@ -90,7 +107,13 @@
 		.banner_3_head_top{
 			/*height: 766px;*/
 			margin-top: 130px;
-			padding: 340px 0;
+			/*padding: 340px 0;*/
+			position: relative;
+		}
+		.banner_3_head_top_text{
+			position: absolute;
+			top: 40%;
+			left: 27%;
 		}
 		.banner_3_head_top p{
 			text-align: center;
@@ -99,7 +122,13 @@
 		}
 		.banner_3_head_bottom_bg{
 			/*height: 344px;*/
-			padding: 128px 0 !important;
+			/*padding: 128px 0 !important;*/
+			position: relative;
+		}
+		.banner_3_head_bottom_bg_text{
+			position: absolute;
+			top: 40%;
+			left: 17%;
 		}
 		.banner_3_head_bottom_bg p{
 			text-align: center;
@@ -111,13 +140,19 @@
 		}
 		.banner_3_right_head{
 			/*height: 492px;*/
-			padding: 200px 0;
+			/*padding: 200px 0;*/
 			text-align: center;
 			font-size: 36px;
 			color: #fff;
+			position: relative;
+		}
+		.banner_3_right_head_text{
+			position: absolute;
+			top: 40%;
+			left: 36%;
 		}
 		.banner_3_right_bottom{
-			padding: 170px 0 0 130px;
+			padding: 70px 0 0 130px;
 		}
 		.banner_3_right_bottom p{
 			font-size: 24px;
@@ -137,6 +172,7 @@
 			position: absolute;
 			overflow: auto;
 			top: 390px;
+			letter-spacing: 2px;
 		}
 		.banner_4_right_wrap{
 			height: 536px;
@@ -207,7 +243,7 @@
 		}
 		/*footer css begin*/
 		footer{
-			margin-top: 500px;
+			margin-top: 300px;
 		}
 		.footer_top{
 			height: 100px;
@@ -240,24 +276,32 @@
 			width: 100%;
 			height: 100%;
 		}
-		@media screen and (max-width: 1400px) {
+		@media screen and (max-width: 1600px) {
+			.banner_1 .banner_1_text{
+				font-size: 52px;
+				left: 26%;
+			}
 			.banner_2_body_content{
-				padding: 64px 0;
+				/*padding: 64px 0;*/
+			}
+			.banner_2_text_wrap{
+				top: 40%;
+				left: 13%;
 			}
 			.banner_2_body_right{
-				padding: 190px 0;
+				/*padding: 190px 0;*/
 			}
 			.banner_3_right_head{
-				padding: 140px 0;
+				/*padding: 140px 0;*/
 			}
 			.banner_2_body_button{
 				margin-top: 4px;
 			}
 			.banner_3_head_top{
-				padding: 210px 0;
+				/*padding: 210px 0;*/
 			}
 			.banner_3_head_bottom_bg{
-				padding: 70px 0 !important;
+				/*padding: 70px 0 !important;*/
 			}
 			.banner_4 {
 				height: 540px;
@@ -265,7 +309,7 @@
 				margin-top: 180px;
 			}
 			.banner_4_text_wrap{
-				padding: 80px 70px 50px 37px;
+				padding: 50px 70px 40px 37px;
 				font-size: 12px;
 				top: 160px;
 			}
@@ -282,8 +326,19 @@
 			.banner_5 .video_height{
 				height: 500px;
 			}
+			.banner_3_head_bottom_bg_text{
+				position: absolute;
+				top: 30%;
+				left: 2%;
+			}
+			.banner_3_right_head_text{
+				left: 28%;
+			}
+			.banner_3_head_top_text{
+				left: 20%;
+			}
 			footer{
-				margin-top: 300px;
+				margin-top: 200px;
 			}
 			.footer_bottom {
 				font-size: 12px;
@@ -309,7 +364,8 @@
 		</div>
 	</header>
 	<div class="content">
-		<div class="banner_1" style="background: url('img/banner_1.jpg') no-repeat 100% 100%;background-size: 100% 100%;">
+		<div class="banner_1">
+			<img src="img/banner_1.jpg" alt="" style="width: 100%;">
 			<div class="banner_1_text">Focus on women's sports</div>
 		</div>
 		<div class="banner_2 container-fluid">
@@ -323,17 +379,22 @@
 					<div class="banner_2_body">
 						<div class="col-md-4">
 							<div class="banner_2_body_head"><span><img src="img/three_line.png" alt=""></span></div>
-							<div class="banner_2_body_content" style="background: url('img/banner_2_img1.jpg') no-repeat 100% 100%;background-size: 100% 100%;">
-								<p>运动上装</p>
-								<p>TRANING TOPS</p>
+							<div class="banner_2_body_content">
+								<img src="img/banner_2_img1.jpg" alt="" style="width: 100%">
+								<div class="banner_2_text_wrap">
+									<p>运动上装</p>
+									<p>TRANING TOPS</p>
+								</div>
 								<!--<div class="banner_2_body_button"></div>-->
 							</div>
 						</div>
 						<div class="col-md-8" style="padding-left: 20px;">
-							<div class="banner_2_body_right"
-								 style="background: url('img/banner_2_img2.jpg') no-repeat 100% 100%;background-size: 100% 100%;">
-								<p>运动内衣</p>
-								<p>SPORTS BRA</p>
+							<div class="banner_2_body_right">
+								<img src="img/banner_2_img2.jpg" alt="" width="100%;">
+								<div class="banner_2_body_right_text_wrap">
+									<p>运动内衣</p>
+									<p>SPORTS BRA</p>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -346,27 +407,34 @@
 				<div class="col-md-2"></div>
 				<div class="col-md-8">
 					<div class="col-md-7">
-						<div class="banner_3_head_top" style="background: url('img/banner_3_img1.jpg') no-repeat 100% 100%;background-size: 100% 100%;background-size: 100% 100%;">
-							<p>运动下装</p>
-							<p>SPORTS LEGGINGS</p>
+						<div class="banner_3_head_top">
+							<div class="banner_3_head_top_text">
+								<p>运动下装</p>
+								<p>SPORTS LEGGINGS</p>
+							</div>
+							<img src="img/banner_3_img1.jpg" style="width: 100%;" alt="">
 						</div>
+
 						<div class="banner_3_head_bottom container-fluid">
 							<div class="row">
 								<div class="col-md-6"></div>
-								<div class="col-md-6 banner_3_head_bottom_bg"
-									 style="background: url('img/banner_3_img2.jpg') no-repeat 100% 100%;
-									 padding: 0;
-									 background-size: 100% 100%;">
-									<p>运动配件</p>
-									<p>ACCESSORIES</p>
+								<div class="col-md-6 banner_3_head_bottom_bg">
+									<img src="img/banner_3_img2.jpg" style="width: 100%;" alt="">
+									<div class="banner_3_head_bottom_bg_text">
+										<p>运动配件</p>
+										<p>ACCESSORIES</p>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-5">
-						<div class="banner_3_right_head" style="background: url('img/banner_3_img3.jpg') no-repeat;background-size: 100% 100%;">
-							<p>泳衣</p>
-							<p>SWIMMER</p>
+						<div class="banner_3_right_head">
+							<img src="img/banner_3_img3.jpg" style="width: 100%;" alt="">
+							<div class="banner_3_right_head_text">
+								<p>泳衣</p>
+								<p>SWIMMER</p>
+							</div>
 						</div>
 						<div class="banner_3_right_bottom">
 							<!--<p style="font-size: 60px;">Better You</p>-->
@@ -389,7 +457,7 @@
 						<p>在每一次的运动中都能够感受到</p>
 						<p>舒适与自由</p>
 						<p>奔跑 跳跃 倾注全力</p>
-						<p>在此刻忘记烦恼和 纠结</p>
+						<p>在此刻忘记烦恼和纠结</p>
 						<p>只感受当下肌肉的嘶吼</p>
 						<p>脂肪的燃烧</p>
 						<p>没有什么比全身心投入运动的你</p>
@@ -406,7 +474,7 @@
 							<p style="font-size: 12px;margin-top: 40px;">yvette 专注女性运动</p>
 						</div>
 					</div>
-					<div class="col-md-9">
+					<div class="col-md-9 video_111">
 						<div>
 							<!--<video src="http://develop.yvette.com.cn/public/video/video.mp4"-->
 								   <!--controls="controls"-->
@@ -464,13 +532,32 @@
 				<div class="footer_icon">
 					<img src="img/facebook-(1).png" alt="">
 				</div>
-				<div class="footer_icon">
+				<div class="footer_icon wechat">
 					<img src="img/wechat.png" alt="">
+					<div class="wechat_wrap">
+						<img src="img/pc端公众号.png" alt="">
+					</div>
 				</div>
-				<div class="footer_icon">
+				<div class="footer_icon wechat_little">
 					<img src="img/wechat-little.png" alt="">
+					<div class="wechat_little_wrap">
+						<img src="img/pc端小程序.png" alt="">
+					</div>
 				</div>
 			</div>
+			<script>
+				$(function () {
+					$('.wechat').hover(function () {
+						$('.wechat_wrap').css('display','block')
+					},function () {
+						$('.wechat_wrap').css('display','none')
+					})
+					$('.wechat_little').hover(function () {
+						$('.wechat_little_wrap').css('display','block')
+					},function () {
+						$('.wechat_little_wrap').css('display','none')
+					})})
+			</script>
 		</div>
 		<div class="footer_bottom container-fluid">
 			<div class="col-md-3 col-md-offset-2">
@@ -511,7 +598,6 @@
 	</div>
 </body>
 </html>
-<script type="text/javascript" src="jQuery/jquery.min.js"></script>
 <script type="text/javascript" src="bootstrap/bootstrap-theme.min.css"></script>
 <script type="text/javascript" src="bootstrap/bootstrap.min.js"></script>
 <script>
@@ -532,4 +618,8 @@
 		$(video_num).css('display','block');
 		$(video_num).reload();
     }
+    $(function () {
+		$('.banner_4_right_wrap').height($('.video_111').height() - 100)
+		$('.banner_2_body_head').height($('.banner_2_body_right').height() - $('.banner_2_body_content').height())
+	})
 </script>
