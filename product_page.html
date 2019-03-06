@@ -392,16 +392,20 @@
             height: 10px;
         }
         #product_page .banner_10{
-            height: 1050px;
-            background: url("img/product_banner_10_bg.jpg") no-repeat;
-            background-size: 100% 100%;
+            /*height: 1050px;*/
+            /*background: url("img/product_banner_10_bg.jpg") no-repeat;*/
+            /*background-size: 100% 100%;*/
+            position: relative;
         }
         #product_page .banner_10 .banner_10_text{
-            float: right;
-            margin-right: 12%;
+            position: absolute;
+            top: 0;
+            right: 10%;
+            overflow: auto;
+            /*float: right;*/
+            /*margin-right: 12%;*/
             text-align: center;
-            height: 1050px;
-            position: relative;
+            /*height: 1050px;*/
         }
         #product_page .banner_10 .banner_10_text .header{
             padding-top: 180px;
@@ -421,11 +425,12 @@
             line-height: 50px;
         }
         #product_page .banner_10 .banner_10_text .logo{
-            height: 100px;
-            position: absolute;
-            left: 50%;
-            margin-left: -100px;
-            bottom: 50px;
+            /*height: 100px;*/
+            /*position: absolute;*/
+            /*left: 50%;*/
+            /*margin-left: -100px;*/
+            /*bottom: 50px;*/
+            margin-top: 100px;
         }
         @media screen and (max-width: 1600px) {
             #product_page .banner_10 .banner_10_text .header .title{
@@ -441,10 +446,11 @@
             #product_page .banner_10 .banner_10_text .logo{
                 height: 70px;
                 width: 150px;
-                position: absolute;
-                left: 50%;
-                margin-left: -75px;
-                bottom: 50px;
+                /* position: absolute; */
+                /* left: 50%; */
+                /* margin-left: 75px; */
+                /* bottom: 50px; */
+                margin: 50px auto;
             }
             #product_page .banner_10 .banner_10_text .logo img{
                 width: 100%;
@@ -702,6 +708,7 @@
             </div>
         </div>
         <div class="banner_10">
+            <img src="img/product_banner_10_bg.jpg" alt="" style="width: 100%;">
             <div class="banner_10_text">
                 <div class="header">
                     <p class="title">运动紧身裤</p>
@@ -789,7 +796,7 @@
 <script type="text/javascript" src="bootstrap/bootstrap.min.js"></script>
 <script>
     $('.carousel').carousel({
-        interval: false
+        // interval: false
     })
     function change_slider(num) {
         $(".carousel").carousel(num);

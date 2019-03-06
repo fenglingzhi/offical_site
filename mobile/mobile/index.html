@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>官网首页无线端</title>
+    <!-- <link rel="stylesheet" href="./lib/layui/css/layui.mobile.css"> -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <script src="./js/jquery-3.3.1.js"></script>
+    <script src="./js/common.js"></script>
+</head>
+<body>
+    <header class="" style="position: fixed;top:0; width:100%;z-index: 999;">
+        <div>
+            <div style="font-size: 0; padding: .3rem .5rem;background:#f1bab7;">
+                <img src="./img/menu.png" alt="" style="width:.31rem;height: .24rem;">
+            </div>
+            <div style="font-size: 0; padding: .3rem 0;width: 100%;display: flex;justify-content: center;position: absolute;top: 0;">
+                <img src="./img/logo.png" alt="" style="width: 1.49rem;height: .31rem;">
+            </div>
+        </div>
+        <div style="z-index: 1;background-color: #fff;">
+            <ul style="list-style: none;" class="nav_tab">
+                <li class="nav_tab_active"><a href="">首页</a></li>
+                <li>品牌介绍</li>
+                <li>产品</li>
+                <li>品牌动态</li>
+            </ul>
+            
+        </div>
+    </header>
+    <div style="position: relative;top: 1.5rem;;">
+        <!-- banner -->
+        <div>
+            <img src="./img/home_img_22_02.jpg" alt="" style="width:100%;">
+            <div style="font-size: .35rem;color:#fff;position: absolute;top: 3.5rem;width: 100%;text-align: center;">
+                <span>Focus on women's sports</span>
+            </div>
+        </div>
+        <!-- 副标题 -->
+        <div style="padding:.5rem 1rem;">
+            <span style="display: block;font-size:.4rem;">Yvette</span>
+            <span style="font-size:.3rem;">category.<span style="text-decoration: underline;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+        </div>
+        <!-- 模块 -->
+        <div style="display: flex;padding: .2rem;">
+            <div style="display: flex;flex-direction: column;padding:.05rem;">
+                <div style="text-align: center">
+                    <img src="./img/menu1.jpg" alt="" style="width:.3rem;height:auto;">
+                </div>
+                <div style="flex: 1;">
+
+                </div>
+                <div>
+                    <div style="position: relative;top:1.1rem;text-align: center;color: #fff;">
+                        <span style="display: block;font-size:.22rem;">运动上装</span>
+                        <span style="font-size:.22rem;">TRAINING TOPS</span>
+                    </div>
+                    <img src="./img/home_img_22_08.jpg" alt="" style="width:2.2rem;height:auto;">
+                </div>
+                <div style="position: relative;text-align: center;color: #fff;opacity: 0;">
+                    <span style="display: block;font-size:.22rem;">运动上装</span>
+                    <span style="font-size:.22rem;">TRAINING TOPS</span>
+                </div>
+            </div>
+            <div style="flex: 1;padding:.05rem;">
+                <img src="./img/home_img_22_05.jpg" alt="" style="width:100%;height:auto;">
+                <div style="position: relative;top:-1.7rem;text-align: center;color: #fff;">
+                    <span style="display: block;font-size:.22rem;">运动内衣</span>
+                    <span style="font-size:.22rem;">SPORTS BAR</span>
+                </div>
+            </div>
+        </div>
+        <!--模块 -->
+        <div style="display: flex;padding: .25rem;">
+            <div style="display: flex;flex-direction: column;">
+                <div style="text-align: center">
+                    <div style="position: relative;top:2rem;text-align: center;color: #fff;">
+                        <span style="display: block;font-size:.22rem;">运动下装</span>
+                        <span style="font-size:.22rem;">SPORTS LEGGINGS</span>
+                    </div>
+                    <img src="./img/home_img_22_15.jpg" alt="" style="width:3.2rem;height:auto;">
+                </div>
+                <div style="display: flex;flex-direction: row;">
+                    <div style="position: relative;text-align: center;color: #fff;left: 1.65rem;top: .5rem;">
+                        <span style="display: block;font-size:.22rem;">运动配件</span>
+                        <span style="font-size:.22rem;">ACCESSORIES</span>
+                    </div>
+                    <div style="flex: 1;"></div>
+                    <div style="">
+                        <img src="./img/home_img_22_19.jpg" alt="" style="width:1.65rem;height:auto;">
+                    </div>
+                    
+                </div>
+            </div>
+            <div style="flex: 1;">
+                <img src="./img/home_img_22_13.jpg" alt="" style="width:100%;height:auto;">
+                <div style="position: relative;top:-1.6rem;text-align: center;color: #fff;">
+                    <span style="display: block;font-size:.22rem;">泳衣</span>
+                    <span style="font-size:.22rem;">SWIMMER</span>
+                </div>
+                <div style="text-align: center;">
+                    <span style="font-size:.3rem;">Better You</span>
+                    <ul style="list-style: none;font-size:.16rem;text-align: left; margin-left: .6rem;margin-top:.2rem;">
+                        <li>Be Active.</li>
+                        <li>Be Daring.</li>
+                        <li>Be Inspired.</li>
+                        <li>Be.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div style="padding: .25rem;">
+            <img src="./img/menu1.jpg" alt="" style="width:.3rem;height:auto;">
+        </div>
+        <!-- 视频 -->
+        <div style="padding: .25rem;">
+            <img src="./img/video_1.jpg" alt="" style="width:100%;" onclick="openVideo('http://develop.yvette.com.cn/public/video/video.mp4')">
+            <!-- <video src="http://develop.yvette.com.cn/public/video/video.mp4" poster="./img/home-bg_03_03.jpg" autoplay="autoplay" preload="auto" controls="controls" style="width: 100%;"></video> -->
+        </div>
+        <!-- 核心 -->
+        <div style="padding:.4rem .5rem;background: url(./img/home-bg_02.jpg) no-repeat;background-size: 100% 100%;margin-top:.5rem;">
+            <div>
+                <span style="font-size:.3rem;display: block;font-weight: bold;">Core of Yvette</span>
+                <span style="font-size:.2rem;display: block;">Yvette的核心</span>
+            </div>
+            <div style="display: flex;margin-top:.5rem;">
+                <div style="padding-right: .25rem">
+                    <!-- <video src="http://develop.yvette.com.cn/public/video/lycra4K.mov" poster="./img/home-bg_03_07.jpg" autoplay="autoplay" controls="controls" preload="auto" style="width:2.8rem;height:3.2rem;"></video> -->
+                    <img src="./img/video_2.jpg" alt="" style="width:100%;" onclick="openVideo('http://develop.yvette.com.cn/public/video/lycra4K.mov')">
+                    <div style="background-color: #f1bab7;text-align: center;line-height: .5rem">
+                        <span style="font-size: .25rem;font-weight: bold;">Yvette  面料科技</span>
+                    </div>
+                </div>
+                <div style="padding-left: .25rem">
+                    <img src="./img/home_img_22_22.jpg" alt="" style="width:100%;">
+                    <span style="font-size: .25rem;font-weight: bold;display: block;line-height: .8rem;">Yvette  设计</span>
+                    <img src="./img/home_img_22_25.jpg" alt="" style="width:70%;margin-top: .2rem;">
+                    <span style="font-size: .25rem;font-weight: bold;display: block;line-height: .8rem;">Yvette  工艺</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer style="margin-top:.5rem;background-color: #f5f7f9;position: relative;top: 1.5rem;">
+        <div>
+            <ul style="text-align: center;display: flex;align-items: center;justify-content: center;background: #e5e0e6;">
+                <li style="height: .6rem;display: flex;align-items: center;justify-content: center;padding: .1rem .2rem;">
+                    <img src="./img/ins.png" alt="" style="width:.5rem;height: auto;">
+                </li>
+                <li style="height: .6rem;display: flex;align-items: center;justify-content: center;padding: .1rem .2rem;">
+                    <img src="./img/facebook-(1).png" alt="" style="width:.5rem;height: auto;">
+                </li>
+                <li style="height: .6rem;display: flex;align-items: center;justify-content: center;padding: .1rem .2rem;">
+                    <img src="./img/tmall.png" alt="" style="width:.5rem;height: auto;">
+                </li>
+                <li style="height: .6rem;display: flex;align-items: center;justify-content: center;padding: .1rem .2rem;position: relative;" onclick="open_wechat(this)">
+                    <img src="./img/wechat.png" alt="" style="width:.5rem;height: auto;">
+                    <div class="we_wrap wechat_wrap" style="position: absolute;top: -188px;left: -80px;display: none;">
+                        <img src="img/pc端公众号.png">
+                    </div>
+                </li>
+                <li style="height: .6rem;display: flex;align-items: center;justify-content: center;padding: .1rem .2rem;position: relative;" onclick="open_wechat(this)">
+                    <img src="./img/wechat-little.png" alt="" style="width:.5rem;height: auto;">
+                    <div class="we_wrap wechat_little_wrap" style="position: absolute;top: -188px;left: -80px;display: none;">
+                        <img src="img/pc端小程序.png">
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul style="padding: .2rem 1.1rem;">
+                <li style="height: .4rem;display: flex;align-items: center;padding: .1rem;">
+                    <img src="./img/phone.png" alt="" style="width:.3rem;height: auto;padding-right: .3rem;">
+                    <span style="font-size: .2rem;">咨询热线：<span style="font-weight: bold;">400-017-5585</span></span>
+                </li>
+                <li style="height: .4rem;display: flex;align-items: center;padding: .1rem;">
+                    <img src="./img/message.png" alt="" style="width:.3rem;height: auto;padding-right: .3rem;">
+                    <span style="font-size: .2rem;">服务邮箱：<span style="font-weight: bold;"></span>service@yvette.com.cn</span></span>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <div class="mb" id="mb"  style="height: 100vh;display: none;">
+        <img src="./img/X@2x.png" style="width: .3rem;height: .3rem;position: relative;top: .2rem;left: .2rem;" onclick="closeVideo()">
+        <video src=""  autoplay="autoplay" controls="controls" id="videoPlay" style="width: 100%;position: absolute; left: 0; top: 0; right: 0; bottom: 0;margin:auto;"></video>
+    </div>
+    <script>
+    function closeVideo(){
+        $("#mb").css("display", "none");
+        $("#videoPlay").prop("src",'')
+    }
+    function openVideo(url){
+        console.log('123')
+        $("#mb").css("display", "block");
+        $("#videoPlay").prop("src",url)
+    }
+    function open_wechat(index_){
+        $(index_).children('div').toggleClass('display_block').parent().siblings().children('div').removeClass('display_block');
+    }
+    $('body').on('click',function(){
+        $('.we_wrap').css('display','none')
+    })
+    </script>
+</body>
+<style>
+    .display_block{
+        display: block !important;
+    }
+    .nav_tab{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center
+    }
+    .nav_tab li{
+        font-size: .26rem;
+        padding:  .2rem .3rem;
+    }
+    .nav_tab_active{
+        font-weight: bold;
+    }
+    .clear_botn{
+        clear: both;
+    }
+    .mb {
+        width: 100%;
+        background: rgba(0, 0, 0, 0.6)!important;
+        background: #000;
+        position: fixed;
+        left: 0;
+        top: 0;
+        display: none;
+        z-index: 99999;
+    }
+</style>
+</html>
